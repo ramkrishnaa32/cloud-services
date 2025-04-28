@@ -1,0 +1,21 @@
+AWS Services
+    1. EMR (Elastic MapReduce) - Managed cluster platform for big data processing
+    2. Redshift - Fully managed petabyte-scale data warehouse for fast SQL analytics.
+    3. Athena - Serverless query data in S3 using standard SQL.
+    4. Glue - 	Serverless data integration service; used for ETL (Extract, Transform, Load)
+    5. S3 - Scalable object storage for data backup, archival, and analytics.
+    6. Lambda - Serverless compute service that runs code in response to events.
+    7. Appflow - Managed integration service to securely transfer data between SaaS apps.
+    8. Step Function - Serverless orchestration service to coordinate multiple AWS services into workflows.
+    9. KDA - Real-time data analytics service to process streaming data using SQL and Flink
+
+Azure Services
+    1. HDInsight / Azure Databricks - Managed big data clusters for Hadoop, Spark, Hive, etc.
+    2. Azure Data Factory (ADF)	- ETL orchestration and data integration service.
+    3. Azure Data Lake Storage (ADLS) / Azure Blob Storage - Scalable object storage and data lake storage.
+    4. 	Azure Synapse Analytics - Data warehouse for big data analytics and reporting.
+    5. Azure Synapse Serverless SQL Pool - Query data directly from storage using SQL without setting up a database.
+    6. Azure Functions - Serverless compute for event-driven workloads.
+    7. Azure Data Factory (with connectors) - Data transfer between SaaS apps and Azure services.
+    8. Azure Logic Apps / Durable Functions - Serverless workflow orchestration.
+    9. Azure Stream Analytics - Real-time streaming data processing and analytics.
