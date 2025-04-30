@@ -19,3 +19,14 @@ Azure Services
     7. Azure Data Factory (with connectors) - Data transfer between SaaS apps and Azure services.
     8. Azure Logic Apps / Durable Functions - Serverless workflow orchestration.
     9. Azure Stream Analytics - Real-time streaming data processing and analytics.
+
+Athena Optimization:
+    - Using compression technique (snappy, gzip)
+    - Using column based file format (parquet, ORC)
+    - Partitioning the data
+
+EC2 Instance (Virtual Machine) : Elastic Compute Cloud
+    - public ip - connecting from outside
+    - private ip - communicate within aws network
+    - types - general purpose (start with M, T), compute optimised (start with C), memory optimised (start with R, X)
+    - aws ec2 run-instances --image-id ami-0e449927258d45bc4 --count 1 --instance-type t2.micro --key-name ec2-key-pair --security-group-ids sg-0786d9d91d9e48b1d --subnet-id subnet-0e1b29c9b72e49dee

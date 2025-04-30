@@ -42,7 +42,10 @@ if __name__ == "__main__":
     # Required details
     DATABASE = constants.DATABASE
     S3_OUTPUT = constants.ATHENA_LOG
-    QUERY = '''SELECT * FROM students LIMIT 10'''
+    QUERY = '''SELECT subject, round(avg(score), 2) as avgScore 
+               FROM student_partitions
+               GROUP BY subject
+               ORDER BY avgScore DESC'''
 
     # Run the function
     run_athena_query(constants.DATABASE, QUERY, S3_OUTPUT, constants.REGION)
