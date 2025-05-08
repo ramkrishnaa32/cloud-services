@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "data-aggregation",
+    "ActionOnFailure": "CONTINUE",
+    "HadoopJarStep": {
+      "Jar": "command-runner.jar",
+      "Args": [
+        "spark-submit",
+        "--deploy-mode", "cluster",
+        "s3://cloud-services-preprod-us-east-1/scripts/emr_aggregated_orders_data.py"
+      ]
+    }
+  }
+]

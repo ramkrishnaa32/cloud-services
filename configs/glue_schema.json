@@ -1,0 +1,6 @@
+[
+  {"Name": "order_id", "Type": "bigint"},
+  {"Name": "order_date", "Type": "string"},
+  {"Name": "customer_id", "Type": "bigint"},
+  {"Name": "order_status", "Type": "string"}
+]

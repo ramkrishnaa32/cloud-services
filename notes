@@ -30,3 +30,21 @@ EC2 Instance (Virtual Machine) : Elastic Compute Cloud
     - private ip - communicate within aws network
     - types - general purpose (start with M, T), compute optimised (start with C), memory optimised (start with R, X)
     - aws ec2 run-instances --image-id ami-0e449927258d45bc4 --count 1 --instance-type t2.micro --key-name ec2-key-pair --security-group-ids sg-0786d9d91d9e48b1d --subnet-id subnet-0e1b29c9b72e49dee
+
+EMR (Elastic MapReduce): Managed big data environment on cloud
+    - primary node (master, name node, resource manager)
+    - core nodes (worker, data node, storage, node manager)
+    - task node (only for processing)
+    - instance fleet (size of each node can be different), instance group (all nodes will be same size)
+    - ssh -i ec2-key-pair.pem hadoop@ec2-52-207-77-133.compute-1.amazonaws.com
+    - ssh -i ec2-key-pair.pem -ND 8157 hadoop@ec2-52-207-77-133.compute-1.amazonaws.com
+
+Glue: Serverless data integration service
+    - Crawler (Infer the columns and and datatypes)
+    - Data Catalog (Database name, table name)
+    - ETL Capability (Extract transformation loading)
+        - Visual interface (low code)
+        - Scripting
+        - Interactive (development purpose)
+
+

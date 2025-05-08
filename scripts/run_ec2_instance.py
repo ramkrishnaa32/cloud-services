@@ -4,7 +4,7 @@ import requests
 import base64
 
 # Load your custom index.html file
-with open('index.html', 'r') as f:
+with open('../index.html', 'r') as f:
     html_content = f.read()
 
 # Escape the content for shell and embed in user data

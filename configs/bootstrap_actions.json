@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "install-dependencies",
+    "ScriptBootstrapAction": {
+      "Path": "s3://cloud-services-preprod-us-east-1/bootstrap-script/install_dependencies.sh"
+    }
+  }
+]

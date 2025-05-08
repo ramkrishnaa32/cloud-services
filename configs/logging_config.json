@@ -1,0 +1,3 @@
+{
+  "LogUri": "s3://cloud-services-preprod-us-east-1/emr-logs/"
+}
