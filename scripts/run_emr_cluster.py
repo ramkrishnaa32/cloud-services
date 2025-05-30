@@ -2,7 +2,6 @@ import json
 import boto3
 import time
 
-
 def load_json(path):
     with open(path, 'r') as f:
         return json.load(f)
